@@ -14,15 +14,17 @@
         </div>
         <div class="add-money-form">
             <input type="number" id="addAmount" placeholder="Enter Amount to Add">
-            <button onclick="addMoney()">Add Money</button>
+            <button onclick="addMoney()">Add</button>
         </div>
         <div class="expense-form">
             <input type="number" id="expenseAmount" placeholder="Enter Expense Amount">
-            <button onclick="addExpense()">Add Expense</button>
+            <button onclick="addExpense()"> Expense</button>
         </div>
         <div class="expense-history">
             <h3>Transaction History</h3>
             <ul id="historyList"></ul>
+            <button onclick="clearHistory()">Clear History</button>
+            <button onclick="resetPage()">Reset</button> <!-- Reset button with page refresh -->
         </div>
     </div>
     <script src="script.js"></script>
