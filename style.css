@@ -81,3 +81,33 @@ h3 {
 .clear-history-button:hover {
     background-color: #28a745
 }
+
+
+/* Mobile-specific media query */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .add-money-form,
+    .expense-form {
+        flex-direction: column;
+    }
+
+    input[type="number"], button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .expense-history button {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
